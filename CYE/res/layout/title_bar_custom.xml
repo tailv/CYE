@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50.0dip"
+    android:background="@drawable/edsearch_background" >
+
+    <com.example.cye.util.CustomEditText
+        android:id="@+id/edit_search"
+        android:layout_width="220.0dip"
+        android:layout_height="40.0dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/edsearch_background"
+        android:drawableRight="@drawable/x"
+        android:paddingLeft="5.0dip"
+        android:paddingRight="5.0dip"
+        android:singleLine="true"
+        android:textSize="22.0sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/text_search"
+        android:layout_width="30.0dip"
+        android:layout_height="30.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/textsearch_background"
+        android:clickable="true" />
+
+</RelativeLayout>
