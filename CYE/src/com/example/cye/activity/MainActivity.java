@@ -12,7 +12,6 @@ import com.example.cye.util.MyAdapter;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.KeyEvent;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
