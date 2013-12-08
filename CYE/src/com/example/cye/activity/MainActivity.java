@@ -23,7 +23,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnItemClickListener, OnClickListener {
-
+	//Them chu thich ne
 	private EditText mEditSearch;
 	private ListView mListTitle;
 	private MyAdapter mMyAdapter;
